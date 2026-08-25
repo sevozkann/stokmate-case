@@ -1,0 +1,16 @@
+# JavaScript / Expo
+**/node_modules/
+**/dist/
+**/.expo/
+**/*.tsbuildinfo
+*.env
+!*.env.example
+
+# .NET
+**/bin/
+**/obj/
+**/.vs/
+
+# OS / editors
+.DS_Store
+*.user

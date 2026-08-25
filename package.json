@@ -1,0 +1,12 @@
+{
+  "name": "stokmate-case",
+  "private": true,
+  "scripts": {
+    "dev:web": "npm --prefix apps/web run dev",
+    "dev:mobile": "npm --prefix apps/mobile run start",
+    "dev:api": "dotnet run --project apps/api/src/StokMate.Api",
+    "build:web": "npm --prefix apps/web run build",
+    "check:mobile": "npm --prefix apps/mobile run typecheck",
+    "build:api": "dotnet build apps/api/src/StokMate.Api"
+  }
+}

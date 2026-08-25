@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "StokMate",
+    "slug": "stokmate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.stokmate.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.stokmate.app",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9f610009-4111-4238-ae9f-16383c5a3d00"
+      }
+    },
+    "owner": "sevozkan"
+  }
+}
